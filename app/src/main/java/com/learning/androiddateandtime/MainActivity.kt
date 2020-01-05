@@ -22,11 +22,9 @@ class MainActivity : AppCompatActivity() {
         today_textView.text = date.toString()
 
 
-        weekstart_textView.text = date.toString()
         weekend_textView.text = date.plusDays(7).toString()
 
 
-        monthstart_textView.text = date.toString()
         monthend_textView.text = date.plusMonths(1).toString()
 
 
